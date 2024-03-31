@@ -35,21 +35,21 @@ const menuItems = [
     {
         title: "Analytics",
         list: [
-            {
-                title: "Reports",
-                path: "/dashboard/reports",
-                icon: <MdAnalytics />
-            },
-            {
-                title: "Staffs",
-                path: "/dashboard/staffs",
-                icon: <MdPeople />
-            },
-            {
-                title: "Profits",
-                path: "/dashboard/transactions",
-                icon: <MdAttachMoney />
-            },
+            // {
+            //     title: "Reports",
+            //     path: "/dashboard/reports",
+            //     icon: <MdAnalytics />
+            // },
+            // {
+            //     title: "Staffs",
+            //     path: "/dashboard/staffs",
+            //     icon: <MdPeople />
+            // },
+            // {
+            //     title: "Profits",
+            //     path: "/dashboard/transactions",
+            //     icon: <MdAttachMoney />
+            // },
         ],
     },
 ]
@@ -68,9 +68,9 @@ const Sidebar = () => {
             <div>
                 <button className={styles.newTransaction}>+ New Transaction</button>
             </div>
-            <div>
-                <button className={styles.tokenizer}>Tokenizer</button>
-            </div>
+            {/*<div>*/}
+            {/*    <button className={styles.tokenizer}>Tokenizer</button>*/}
+            {/*</div>*/}
             <ul className={styles.list}>
                 {menuItems.map(category => (
                     <li key={category.title}>

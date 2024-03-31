@@ -4,7 +4,7 @@ import './ui/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "solidServe Entrepreneur Dashboard",
+  title: "solidServe Manager Dashboard",
   description: 'Dashboard for apps built by Nabiel.',
 }
 
