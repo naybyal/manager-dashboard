@@ -4,7 +4,9 @@
     --text: white;
     --textSoft: #b7bac1;
 }
-
+@font-face{
+    font-family: Roboto sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
