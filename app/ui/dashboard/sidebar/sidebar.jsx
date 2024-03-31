@@ -19,16 +19,12 @@ const menuItems = [
                 path: "/dashboard",
                 icon: <MdDashboard />
             },
-            {
-                title: "Outsource",
-                path: "/dashboard/outsource",
-                icon: <MdSupervisedUserCircle />
-            },
-            {
-                title: "Services",
-                path: "/dashboard/services",
-                icon: <MdMiscellaneousServices />
-            },
+
+            // {
+            //     title: "Services",
+            //     path: "/dashboard/services",
+            //     icon: <MdMiscellaneousServices />
+            // },
             {
                 title: "Transactions",
                 path: "/dashboard/transactions",
@@ -65,12 +61,15 @@ const Sidebar = () => {
                 <Image className={styles.userImage} src="/noavatar.png" href="public/noavatar.png" height="50"
                        width="50" alt='No avatar'></Image>
                 <div className={styles.userDetail}>
-                    <span className={styles.username}>Nabiel</span>
-                    <span className={styles.userTitle}>Entrepreneur</span>
+                    <span className={styles.username}>Joel</span>
+                    <span className={styles.userTitle}>M-Staff</span>
                 </div>
             </div>
             <div>
                 <button className={styles.newTransaction}>+ New Transaction</button>
+            </div>
+            <div>
+                <button className={styles.tokenizer}>Tokenizer</button>
             </div>
             <ul className={styles.list}>
                 {menuItems.map(category => (

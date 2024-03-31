@@ -1,15 +1,9 @@
-import styles from 'app/ui/dashboard/staffs/staffs.module.css';
+import styles from '/app/ui/dashboard/staffs/staffs.module.css';
 import Search from "@/app/ui/dashboard/search/search";
 import Link from "next/link";
-import Avatar from 'public/noavatar.png';
+import Avatar from '/public/noavatar.png';
 import Image from 'next/image';
-import {
-    Pagination,
-    PaginationContent, PaginationEllipsis,
-    PaginationItem,
-    PaginationLink, PaginationNext,
-    PaginationPrevious
-} from "@/components/ui/pagination";
+
 const Staffs = () => {
     return (
         <div className={styles.container}>

@@ -90,3 +90,20 @@
 .newTransaction:hover {
     background-color: green;
 }
+
+.tokenizer {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 800;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.tokenizer:hover {
+    background-color: darkred;
+}

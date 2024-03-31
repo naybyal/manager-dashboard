@@ -1,6 +1,6 @@
 import styles from './rightbar.module.css'
 import Image from 'next/image'
-import Harassment from 'public/abuse.png'
+import Harassment from '/public/abuse.png'
 import {MdEmergencyRecording} from "react-icons/md";
 const Rightbar = () => {
     return (
